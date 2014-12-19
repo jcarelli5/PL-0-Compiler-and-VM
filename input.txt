@@ -1,0 +1,12 @@
+var num;
+procedure factorial(x);
+	begin
+		/* Base case */
+		if x = 0 then return := 1
+		/* Recursive step */
+		else return := x * call factorial(x-1);
+	end;
+begin
+	num := call factorial(3);
+	write num;
+end.
